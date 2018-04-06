@@ -1,1 +1,34 @@
-/* útfæra */
+.navigation {
+  padding: 0;
+  margin: 0;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.navbaritem {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbaritem-bold {
+  font-family: 'Noto sans' sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+}

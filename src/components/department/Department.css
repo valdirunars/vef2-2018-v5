@@ -1,1 +1,21 @@
-/* útfæra */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.tr:nth-child(odd) {
+  background: #eee;
+}
+
+.department a {
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
